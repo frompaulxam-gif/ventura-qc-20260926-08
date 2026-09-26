@@ -1,0 +1,7 @@
+id,source,video
+01-ref,media/01-ref.png,
+01-new,preview/,media/01-new.mp4
+02-ref,media/02-ref.png,
+02-new,examples/?variant=warm,media/02-new.mp4
+03-ref,media/03-ref.png,
+03-new,examples/?variant=blue,media/03-new.mp4

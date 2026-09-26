@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "code": "01",
+      "brand": "Motion",
+      "variants": [
+        {
+          "id": "01-ref",
+          "label": "Previous",
+          "reference": true,
+          "width": 1440,
+          "height": 1000,
+          "image": "media/01-ref.png",
+          "source": "media/01-ref.png"
+        },
+        {
+          "id": "01-new",
+          "label": "Website",
+          "reference": false,
+          "width": 1440,
+          "height": 1000,
+          "video": "media/01-new.mp4",
+          "poster": "media/01-new.png",
+          "source": "preview/"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "brand": "Motion",
+      "variants": [
+        {
+          "id": "02-ref",
+          "label": "Previous",
+          "reference": true,
+          "width": 1440,
+          "height": 1000,
+          "image": "media/02-ref.png",
+          "source": "media/02-ref.png"
+        },
+        {
+          "id": "02-new",
+          "label": "Warm paper",
+          "reference": false,
+          "width": 1440,
+          "height": 1000,
+          "video": "media/02-new.mp4",
+          "poster": "media/02-new.png",
+          "source": "examples/?variant=warm"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "brand": "Motion",
+      "variants": [
+        {
+          "id": "03-ref",
+          "label": "Previous",
+          "reference": true,
+          "width": 1440,
+          "height": 1000,
+          "image": "media/03-ref.png",
+          "source": "media/03-ref.png"
+        },
+        {
+          "id": "03-new",
+          "label": "Soft blue",
+          "reference": false,
+          "width": 1440,
+          "height": 1000,
+          "video": "media/03-new.mp4",
+          "poster": "media/03-new.png",
+          "source": "examples/?variant=blue"
+        }
+      ]
+    }
+  ]
+}

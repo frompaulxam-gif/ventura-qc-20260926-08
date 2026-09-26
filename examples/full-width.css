@@ -1,0 +1,42 @@
+:root{--page:#fffcf8;--surface:#f4eee5;--ink:#292b31;--muted:#706b65;--rule:#ddd5ca;--accent:#af5b32}
+body{background:var(--page);color:var(--ink);--flow-ink:var(--ink);--flow-muted:var(--muted);--flow-accent:var(--accent);--flow-panel:var(--surface);--flow-chip:#ffffffa8;--flow-line:#cabba64a;--flow-shade:#fffaf3}
+body[data-variant=blue]{--page:#fbfcfd;--surface:#ecf2f7;--ink:#253548;--muted:#596c80;--rule:#dce4ec;--accent:#376a95;--flow-line:#aabccc4a;--flow-shade:#f8fbff}
+.review-nav{width:min(1328px,calc(100% - 64px));margin:auto;display:flex;justify-content:space-between;padding:23px 0;border-bottom:1px solid var(--rule);font:12px Archivo,Arial,sans-serif;color:var(--muted)}
+.review-nav nav{display:flex;gap:28px}.review-nav a{color:inherit;text-decoration:none}.review-nav [aria-current]{color:var(--ink);text-decoration:underline;text-underline-offset:7px}
+.examples-section.wrap{width:min(1328px,calc(100% - 64px));padding-bottom:65px}
+.examples-heading{text-align:left;margin:82px 0 70px}.examples-heading h2{font-size:66px;color:var(--ink);margin-bottom:20px}.examples-heading p{color:var(--muted);font-size:17px}
+.example-rows{display:grid;grid-template-columns:1fr;gap:66px}
+.example-row{display:flex;flex-direction:column;align-items:stretch;gap:26px;padding:0 0 58px;border:0;border-bottom:1px solid var(--rule);border-radius:0;min-height:0}
+.example-copy{width:100%}.example-copy .row-label{color:var(--muted);margin-bottom:14px;font-size:12px}
+.example-copy h3{color:var(--ink);max-width:none;font-size:37px;margin-bottom:14px;line-height:1.13;font-weight:500}
+.example-copy>p:not(.row-label){max-width:840px;color:var(--muted);font-size:17px;line-height:1.65}
+.example-copy .flow-details-toggle{display:inline-flex;gap:25px;max-width:none;width:auto;padding:8px 0;min-height:35px;margin-top:13px;border:0;color:var(--ink)}
+.example-copy .flow-details-toggle span{font-size:17px}
+.example-copy .flow-details{max-width:840px;color:var(--muted)}
+.diagram{height:320px;width:100%;border-radius:8px;overflow:hidden;background:var(--surface)}
+.diagram .flow-art{background:transparent}
+.sorting-panel{inset:36px 48px}.sorting-heading{font-size:14px;margin-bottom:24px;color:var(--muted)}
+.sorting-row{grid-template-columns:150px minmax(0,1fr) 80px;gap:30px;min-height:65px}.sorting-label{font-size:17px;color:var(--ink)}
+.sorting-track{height:9px;background:#00000009}.sorting-status{font-size:13px}.sorting-ready{color:var(--accent)}
+.enquiry-stack{inset:30px 44px}.enquiry-heading{font-size:14px;color:var(--muted);margin-bottom:22px}
+.enquiry-row{height:62px;margin-bottom:13px;padding:0 24px;background:#ffffffaa;width:calc(100% - 20px);border-radius:8px}
+.enquiry-channel{font-size:17px;color:var(--ink)}.enquiry-step{font-size:14px;color:var(--muted)}.enquiry-dot{width:7px;height:7px}
+.diagram .flow-tags{top:24px;left:42px}.diagram .flow-tag{font-size:12px;background:var(--flow-chip);color:var(--ink);box-shadow:none}
+.diagram .booking-graph{inset:54px 45px 40px;width:calc(100% - 90px);height:225px}
+.graph-line{vector-effect:non-scaling-stroke;stroke-width:3}.graph-guide{vector-effect:non-scaling-stroke;stroke-width:1}
+.diagram .flow-status{right:37px;bottom:21px;font-size:12px;background:var(--flow-chip);color:var(--ink);box-shadow:none}
+.setup-caption{top:26px;left:44px;font-size:12px;color:var(--muted)}
+.setup-chart{inset:57px 45px 27px;justify-content:space-around;gap:40px}
+.setup-stage{width:25%;gap:14px}.setup-column{width:76px;height:calc(var(--height)*1.4)}.setup-number{font-size:16px;color:var(--ink)}.setup-label{font-size:14px;color:var(--muted)}
+.study-note{font-size:12px;color:var(--muted);margin-top:35px}
+body[data-variant=blue] .example-rows{gap:28px}
+body[data-variant=blue] .example-row{background:var(--surface);padding:40px 44px 32px;border:0;border-radius:12px;gap:10px}
+body[data-variant=blue] .diagram{border-radius:0;height:320px}
+body[data-variant=blue] .sorting-panel{inset:25px 0}
+body[data-variant=blue] .enquiry-stack{inset:25px 0}
+body[data-variant=blue] .diagram .flow-tags{left:0}
+body[data-variant=blue] .diagram .booking-graph{left:0;right:0;width:100%}
+body[data-variant=blue] .setup-caption{left:0}
+body[data-variant=blue] .setup-chart{left:0;right:0}
+body[data-variant=blue] .diagram .flow-status{right:0}
+@media(prefers-reduced-motion:reduce){.sorting-fill{opacity:1;transform:scaleX(1)}.sorting-ready{opacity:1}.sorting-wait{display:none}.setup-fill{transform:scaleY(1);opacity:1}.setup-number{opacity:1}.enquiry-row,.enquiry-step{opacity:1}.enquiry-outline{opacity:0}}
